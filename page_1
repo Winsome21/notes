@@ -1,5 +1,12 @@
-Command injection via url
+Command injection via url:
   - php, pl, 
+  http://example.com/something.php?file=http://example.com/file.php
+  http://example.com/something.php?cmd=test
+  http://example.com/something.pl?cmd=test
+  
+SQLi via url:
+  http://example.com/items.php?id=2 and 1=2
+  This would return false
   
 Twint example:
 #!/usr/bin/python3.8
