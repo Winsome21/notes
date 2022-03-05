@@ -23,6 +23,7 @@ c.Username = "ecarlesi"
 c.Limit = 10
 c.Since = "2022-03-02"
 c.Pandas = True
+c.Hide_output = True
 
 #Run search
 twint.run.Search(c)
