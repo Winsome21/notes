@@ -1,0 +1,48 @@
+Command injection via url
+  - php, pl, 
+  
+Twint example:
+#!/usr/bin/python3.8
+
+#Required Libraries
+import twint
+import re
+import pandas as pd
+import time
+
+#Search
+c = twint.Config()
+c.Username = "ecarlesi"
+c.Limit = 10
+c.Since = "2022-03-02"
+c.Pandas = True
+
+#Run search
+twint.run.Search(c)
+time.sleep(30)
+
+#Convert results to dataframe
+df = twint.storage.panda.Tweets_df
+time.sleep(5)
+
+#Regex domains out of tweet
+i=0
+while i<len(df.tweet)-1:
+    test = re.search(r"\shxxp\w*\:\/\/[a-zA-Z0-9.\[\]-]+",df.tweet[i])
+    test.group(0)
+    i+=1
+    
+    
+-------------------------------
+
+OTX Example:
+
+from OTXv2 import OTXv2, IndicatorTypes
+from pandas import json_normalize
+from datetime import datetime, timedelta
+
+otx = OTXv2("")
+
+events = otx.get_pulse_indicators("")
+
+json_normalize(events)
