@@ -2,3 +2,19 @@ https://any.run/malware-trends/
 
 Formbook articles:
 https://www.netskope.com/blog/new-formbook-campaign-delivered-through-phishing-emails
+
+Gootloader articles:
+https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
+
+powershell with "hidden" flag?
+PowerShell event id 4103 (mimikats credential access)?
+Interested in these ports: 21,80,135,443,445,3389,8080,56133,58000,58157,58294,58682,60234,60461,64502
+EventID 4624 includes a field “Restricted Admin Mode”
+
+Cobalt Strike
+146.70.78.43:443
+37.120.198.225:443
+
+Lokibot:
+Check secret %APPDATA% directory for files with ".exe," ".lck," ".hdb" or ".kdb." extensions
+Sends data to these domains: fuckav.ru, ckav.ru
