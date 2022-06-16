@@ -1,0 +1,16 @@
+https://falcon.crowdstrike.com/intelligence/reports/csa-220613-carbon-spider-distributes-c-jss-loader-using-multi-stage-infection-chain
+
+malicious zip
+70f2be86c9444a384186fe5802fc1a8e3b68fd3ab1e35dbfb3f5785db761dbe6
+
+malicious wsf
+/personal/bela_jahodova_gymum_cz/Documents/Quickbooks-11398-May-2022.wsf
+45847481899ad96f3b8417e058b4d9305b903923a4059a41ae0036db0f8843fb
+
+Contains char code (base 10) which decodes to the callback url
+
+Text between char code variables appears to be junk to obfuscate the payload
+
+104 116 116 112 115 58 47 47 100 114 97 122 109 101 100 105 99 97 108 115 46 99 111 109 47 115 101 110 116 101 110 99 101 115 47 97 110 105 109 97 116 101
+
+https://drazmedicals[.]com/sentences/animate
